@@ -1,5 +1,6 @@
 # hito01cuestion1
 Cuestión 1 - Gestionar variables y tipos de datos
+
 En las líneas:
   - 5 hasta 9 defino cada variable y su tipo.
   - 13 hasta 21 el uso de variable de tipo cadena. Pido al usuario que introduzca una palabra, la consola lo lee,
