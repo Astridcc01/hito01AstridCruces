@@ -12,11 +12,11 @@ Algoritmo cuestion1
 	
 	Escribir "-------------------------------------";
 	Escribir "Inicia uso de variable de tipo cadena";
-	Escribir "Escríbeme una palabra";
+	Escribir "EscrÃ­beme una palabra";
 	Leer cad;
 	Escribir "El primer caracter de ",cad," es ", subcadena(cad,0,0);
-	Escribir "El último caracter de ",cad," es ", subcadena(cad,longitud(cad)-1,longitud(cad)-1);
-	Escribir "La palabra ",cad," tiene ",longitud(cad), " carácteres";
+	Escribir "El Ãºltimo caracter de ",cad," es ", subcadena(cad,longitud(cad)-1,longitud(cad)-1);
+	Escribir "La palabra ",cad," tiene ",longitud(cad), " carÃ¡cteres";
 	Escribir "Fin del uso de variable de tipo cadena";
 	Escribir "-------------------------------------";
 	
@@ -26,7 +26,7 @@ Algoritmo cuestion1
 	Escribir "Dime una palabra distinta";
 	Leer car;
 	Si longitud(car)>5 entonces
-		Escribir "Tu palabra tiene más de 5 letras";
+		Escribir "Tu palabra tiene mÃ¡s de 5 letras";
 	SiNo
 		Escribir "Tu palabra tiene menos de 5 letras";
 	FinSi
@@ -36,12 +36,12 @@ Algoritmo cuestion1
 	// Uso de variable de tipo entero
 	
 	Escribir "Inicio del uso de variable de tipo entero";
-	Escribir "Introduce un número entero entre 1 y 10";
+	Escribir "Introduce un nÃºmero entero entre 1 y 10";
 	Leer ent;
 	Si ent>10 entonces
-		Escribir "El número que has escrito es mayor de 10";
+		Escribir "El nÃºmero que has escrito es mayor de 10";
 	SiNo
-		Escribir "Has escrito el número ",ent;
+		Escribir "Has escrito el nÃºmero ",ent;
 	FinSi
 	Escribir "Fin del uso de variable de tipo entero";
 	Escribir "-------------------------------------";
@@ -49,12 +49,12 @@ Algoritmo cuestion1
 	// Uso de variabled e tipo real/decimal
 	
 	Escribir "Inicio del uso de variable de tipo real/decimal";
-	Escribir "Introduce un número real";
+	Escribir "Introduce un nÃºmero real";
 	Leer rea;
 	Si rea>=3.14 Entonces
-		Escribir "Tu número es mayor o igual que el número pi";
+		Escribir "Tu nÃºmero es mayor o igual que el nÃºmero pi";
 	SiNo
-		Escribir "Tu número es menor que el número pi";
+		Escribir "Tu nÃºmero es menor que el nÃºmero pi";
 	FinSi
 	Escribir "Fin del uso de variable de tipo real/decimal";
 	Escribir "-------------------------------------";
@@ -62,16 +62,16 @@ Algoritmo cuestion1
 	// Uso de variable de tipo booleano/logico
 	
 	Definir condLog Como Caracter;
-	Escribir "Inicio del uso de variable de tipo booleano/lógico";
+	Escribir "Inicio del uso de variable de tipo booleano/lÃ³gico";
 	log<-verdadero;
 	condlog<-"";
-	Escribir "¿Que cuestión es esta?";
+	Escribir "Â¿Que cuestiÃ³n es esta?";
 	Leer condlog;
 	Si condlog<>"1" Entonces
 		log<-falso;
 	FinSi
 	Escribir "La respuesta es ",log;
-	Escribir "Fin del uso de variable de tipo booleano/lógico";
+	Escribir "Fin del uso de variable de tipo booleano/lÃ³gico";
 	Escribir "-------------------------------------";
 	
 FinAlgoritmo
