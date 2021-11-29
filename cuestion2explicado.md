@@ -1,4 +1,5 @@
 En la cuestion 2 he creado un sistema de preguntas que son distintas por edad.
+Dependiendo de las líneas:
       5-8)Primero te pide que introduzcas la edad.
       8-18)Dependiendo de la edad te dice si eres mayor de edad o si tienes menos de 16 años
       20-25)Dependiendo de la edad te dice si tienes 13-14-15 años
